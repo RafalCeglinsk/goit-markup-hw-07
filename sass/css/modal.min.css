@@ -1,0 +1,50 @@
+.form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.form__contact {
+	display: block;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
+	color: var(--text-color-grey);
+	padding-bottom: 4px;
+}
+.form__label {
+	display: block;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
+	color: var(--text-color-grey);
+	padding-bottom: 4px;
+}
+.form__label--input {
+	border: 1px solid var(--form-border-grey);
+	border-radius: 4px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 42px;
+	width: 100%;
+	outline: none;
+}
+.form__label--svg {
+	position: absolute;
+	margin: 12px 11px;
+}
+
+.contact-form-box {
+	width: 100%;
+} /*# sourceMappingURL=modal.min.css.map */

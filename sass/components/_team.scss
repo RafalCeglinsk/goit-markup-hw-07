@@ -1,6 +1,11 @@
-.teammate__figcaption {
-	padding: 30px 0px;
-	&--name {
+.teammate {
+	box-shadow: 0px 4px 4px var(--box-shadow);
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	&__figcaption {
+		padding: 30px 0px;
+	}
+	&__figcaption--name {
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 1.18;
@@ -9,16 +14,14 @@
 		text-align: center;
 		padding-bottom: 10px;
 	}
-	&--job {
-		.job {
-			font-weight: 400;
-			font-size: 16px;
-			line-height: 1.18;
-			color: var(--text-color-grey);
-			letter-spacing: 0.03em;
-			text-align: center;
-			margin-bottom: 16px;
-		}
+	&__figcaption--job {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.18;
+		color: var(--text-color-grey);
+		letter-spacing: 0.03em;
+		text-align: center;
+		margin-bottom: 16px;
 	}
 }
 .social-links {
@@ -37,8 +40,8 @@
 		cursor: pointer;
 		border-radius: 50%;
 	}
-	&__link:hover,
-	&__link:focus {
+	&__link:focus,
+	&__link:hover {
 		fill: white;
 		background-color: var(--background-color-blue);
 		transition: 250ms;
