@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #ffffff;
+	width: 1600px;
+	margin: 0 auto;
+}
+img {
+	display: block;
+}
+.sections {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+:root {
+	--text-color-blue: rgba(33, 150, 243, 1);
+	--text-color-black: rgba(0, 0, 0, 1);
+	--text-color-grey: rgba(117, 117, 117, 1);
+	--text-color-white: rgba(255, 255, 255, 1);
+	--border-color-blue: rgba(33, 150, 243, 1);
+	--border-color-grey: rgba(236, 236, 236, 1);
+	--form-border-grey: rgba(33, 33, 33, 0.2);
+	--hover-color-blue: rgba(33, 150, 243, 1);
+	--hover-color-white: rgba(255, 255, 255, 1);
+	--background-color-black: rgba(47, 48, 58, 1);
+	--background-color-blue: rgba(33, 150, 243, 1);
+	--background-color-white: rgba(245, 244, 250, 1);
+	--focus-color-blue: rgba(33, 150, 243, 1);
+	--contact-color-grey: rgba(255, 255, 255, 0.6);
+	--effective-background-grey: rgba(47, 48, 58, 1);
+	--ourteam-background-grey: rgba(245, 244, 250, 100%);
+	--project-border-white: rgba(238, 238, 238, 1);
+	--box-shadow: rgba(0, 0, 0, 0.25);
+	--lorem-images: rgba(245, 244, 250, 1);
+	--footer-social-link-bg: rgba(255, 255, 255, 0.1);
+	--icon-color-white: rgba(255, 255, 255, 1);
+	--icon-color-grey: rgba(175, 177, 184, 1);
+	--contact-icon-color-grey: rgba(117, 117, 117, 1);
+	--customers-border-grey: rgba(175, 177, 184, 1);
+	--project-description-hover: rgba(33, 150, 243, 0.9);
+	--modal-color-white: #ffffff;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}

@@ -21,84 +21,80 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/main.min.css" />
 	</head>
 	<body>
 		<header>
 			<!-- logo top -->
-			<div class="header-box">
-				<div class="container">
-					<div class="header-flex">
-						<a class="menu-logo-top" href="index.html"
-							><span class="logo-top">Web</span>Studio</a
-						>
-						<!-- nav items-->
-						<nav>
-							<div>
-								<ul class="nav nav-item-flex">
-									<li>
-										<div class="is-active">
-											<a
-												class="nav-item-agencja"
-												href="index.html"
-												>Agencja</a
-											>
-										</div>
-									</li>
-									<li>
+			<div class="container">
+				<div class="header">
+					<a class="header__logo--blue" href="index.html"
+						><span class="header__logo--dark">Web</span>Studio</a
+					>
+					<!-- nav items-->
+					<nav>
+						<div>
+							<ul class="navigation">
+								<li>
+									<div class="navigation__is-active">
 										<a
-											class="nav-item-portfolio"
-											href="portfolio.html"
-											>Portfolio</a
+											class="navigation__item"
+											href="index.html"
+											>Agencja</a
 										>
-									</li>
-									<li>
-										<a class="nav-item-kontakty" href="#"
-											>Kontakt</a
-										>
-									</li>
-								</ul>
-							</div>
-						</nav>
-						<!-- adress top-->
-						<div class="contact-top">
-							<a class="email" href="mailto:info@devstudio.com">
-								<svg
-									width="16"
-									height="12"
-									class="envelope-icon"
-								>
-									<use
-										href="./images/icons.svg#icon-envelope"
-									></use>
-								</svg>
-								info@devstudio.com</a
-							>
-							<a class="phonenumber" href="tel:+48111111111">
-								<svg width="10" height="16" class="smartphone">
-									<use
-										href="./images/icons.svg#icon-smartphone"
-									></use>
-								</svg>
-								+48&nbsp;111&nbsp;111&nbsp;111</a
-							>
+									</div>
+								</li>
+								<li>
+									<a
+										class="navigation__item"
+										href="portfolio.html"
+										>Portfolio</a
+									>
+								</li>
+								<li>
+									<a class="navigation__item--margin" href="#"
+										>Kontakt</a
+									>
+								</li>
+							</ul>
 						</div>
+					</nav>
+					<!-- adress top-->
+					<div class="contact">
+						<a
+							class="contact__email"
+							href="mailto:info@devstudio.com"
+						>
+							<svg width="16" height="12" class="contact--icon">
+								<use
+									href="./images/icons.svg#icon-envelope"
+								></use>
+							</svg>
+							info@devstudio.com</a
+						>
+						<a class="contact__phone" href="tel:+48111111111">
+							<svg width="10" height="16" class="contact--icon">
+								<use
+									href="./images/icons.svg#icon-smartphone"
+								></use>
+							</svg>
+							+48&nbsp;111&nbsp;111&nbsp;111</a
+						>
 					</div>
 				</div>
 			</div>
 		</header>
 		<!-- HERO -->
 		<main>
-			<section class="effective-bg">
-				<div class="effective-flex">
+			<section class="main">
+				<div class="main__box">
 					<h1>
-						<span class="effective"
+						<span class="main--text"
 							>EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO
 							BIZNESU</span
 						>
 					</h1>
-					<button data-modal-open class="order" type="button">
+					<button data-modal-open class="main--button" type="button">
 						Zamów Usługę
 					</button>
 				</div>
@@ -193,7 +189,7 @@
 
 			<!-- What We Do -->
 			<section class="sections container">
-				<h3 class="whatwedox">Czym się zajmujemy</h3>
+				<h3 class="whatwedo-header">Czym się zajmujemy</h3>
 				<div class="whatwedo">
 					<figure class="whatwedo__figure">
 						<img
@@ -233,20 +229,20 @@
 			<!-- Our Team -->
 			<section class="sections our-team-box">
 				<div class="container">
-					<h2 class="ourteam">Nasz zespół</h2>
-					<div class="our-team-flex">
-						<figure class="teammate">
+					<h2 class="ourteam-header">Nasz zespół</h2>
+					<div class="ourteam">
+						<figure class="ourteam__teammate">
 							<img
 								src="./images/Zdjecie1.jpg"
 								width="270"
 								height="260"
 								alt="Product Designer"
 							/>
-							<figcaption class="teammate__figcaption">
-								<h4 class="teammate__figcaption--name">
+							<figcaption class="ourteam__teammate--figcaption">
+								<h4 class="ourteam__teammate--name">
 									John Doe
 								</h4>
-								<p class="teammate__figcaption--job">
+								<p class="ourteam__teammate--job">
 									Product Designer
 								</p>
 								<div>
@@ -307,18 +303,18 @@
 								</div>
 							</figcaption>
 						</figure>
-						<figure class="teammate">
+						<figure class="ourteam__teammate">
 							<img
 								src="./images/Zdjecie2.jpg"
 								width="270"
 								height="260"
 								alt="Frontend Developer"
 							/>
-							<figcaption class="teammate__figcaption">
-								<h4 class="teammate__figcaption--name">
+							<figcaption class="ourteam__teammate--figcaption">
+								<h4 class="ourteam__teammate--name">
 									John Doe
 								</h4>
-								<p class="teammate__figcaption--job">
+								<p class="ourteam__teammate--job">
 									Frontend Developer
 								</p>
 								<div>
@@ -379,20 +375,18 @@
 								</div>
 							</figcaption>
 						</figure>
-						<figure class="teammate">
+						<figure class="ourteam__teammate">
 							<img
 								src="./images/Zdjecie3.jpg"
 								width="270"
 								height="260"
 								alt="Marketing"
 							/>
-							<figcaption class="teammate__figcaption">
-								<h4 class="teammate__figcaption--name">
+							<figcaption class="ourteam__teammate--figcaption">
+								<h4 class="ourteam__teammate--name">
 									John Doe
 								</h4>
-								<p class="teammate__figcaption--job">
-									Marketing
-								</p>
+								<p class="ourteam__teammate--job">Marketing</p>
 								<div>
 									<ul class="social-links">
 										<li>
@@ -451,18 +445,18 @@
 								</div>
 							</figcaption>
 						</figure>
-						<figure class="teammate">
+						<figure class="ourteam__teammate">
 							<img
 								src="./images/Zdjecie4.jpg"
 								width="270"
 								height="260"
 								alt="UI Designer"
 							/>
-							<figcaption class="teammate__figcaption">
-								<h4 class="teammate__figcaption--name">
+							<figcaption class="ourteam__teammate--figcaption">
+								<h4 class="ourteam__teammate--name">
 									John Doe
 								</h4>
-								<p class="teammate__figcaption--job">
+								<p class="ourteam__teammate--job">
 									UI Designer
 								</p>
 								<div>
@@ -613,29 +607,31 @@
 		<!-- adress -->
 		<footer class="footer-effect sections">
 			<div class="container">
-				<a class="menu-logo-bottom" href="index.html"
-					><span class="logo-bottom">Web</span>Studio</a
+				<a class="footer__logo" href="index.html"
+					><span class="footer__logo--blue">Web</span>Studio</a
 				>
 
 				<address>
-					<div class="address-flex">
-						<p class="city">m. Warszawa, Aleje Jerozolimskie 21</p>
-						<a class="contact" href="mailto:info@example.com"
+					<div class="address">
+						<p>m. Warszawa, Aleje Jerozolimskie 21</p>
+						<a
+							class="address--contact"
+							href="mailto:info@example.com"
 							>info@example.com</a
 						>
-						<a class="contact" href="+48111111111"
+						<a class="address--contact" href="+48111111111"
 							>+48 111 111 111</a
 						>
 					</div>
 				</address>
 				<div class="footer-socials-box">
 					<h2 class="join-us">Dołącz do nas</h2>
-					<ul class="footer-social-links">
+					<ul class="footer__socials">
 						<li>
 							<a
 								href="#"
 								target="blank"
-								class="footer-social-link"
+								class="footer__socials--link"
 							>
 								<svg width="22" height="22" viewBox="0 0 32 32">
 									<use
@@ -648,7 +644,7 @@
 							<a
 								href="#"
 								target="blank"
-								class="footer-social-link"
+								class="footer__socials--link"
 							>
 								<svg width="22" height="22" viewBox="0 0 32 32">
 									<use
@@ -661,7 +657,7 @@
 							<a
 								href="#"
 								target="blank"
-								class="footer-social-link"
+								class="footer__socials--link"
 							>
 								<svg width="22" height="22" viewBox="0 0 32 32">
 									<use
@@ -674,7 +670,7 @@
 							<a
 								href="#"
 								target="blank"
-								class="footer-social-link"
+								class="footer__socials--link"
 							>
 								<svg width="22" height="22" viewBox="0 0 32 32">
 									<use
@@ -686,24 +682,26 @@
 					</ul>
 				</div>
 				<div class="newsletter">
-					<p class="newsletter-text">Zapisz sie do newslettera</p>
-					<form class="newsletter-mail">
+					<p class="newsletter--text">Zapisz sie do newslettera</p>
+					<form class="newsletter__mail">
 						<label>
 							<input
 								type="text"
 								name="email"
 								placeholder="E-mail"
-								class="newsletter-input"
+								class="newsletter__mail--input"
 							/>
 						</label>
-						<button type="submit" class="newsletter-button">
-							<span class="join-newsletter">Zapisz się</span>
+						<button type="submit" class="newsletter__button">
+							<span class="newsletter__button--join"
+								>Zapisz się</span
+							>
 
 							<svg
 								width="24"
 								height="24"
 								viewBox="0 0 32 32"
-								class="newsletter-icon"
+								class="newsletter__button--icon"
 							>
 								<use
 									href="./images/icons.svg#icon-icon-send"
@@ -716,8 +714,8 @@
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
-				<button class="btn-close" data-modal-close>X</button>
-				<h2 class="modal-header">
+				<button class="modal__btn--close" data-modal-close>X</button>
+				<h2 class="modal--header">
 					Zostaw swoje dane w formularzu poniżej
 				</h2>
 				<form class="form">
@@ -786,9 +784,9 @@
 							class="form__label--comment"
 						></textarea>
 					</label>
-					<label class="checkbox-container">
+					<label class="checkbox__container">
 						<input type="checkbox" id="checked" />
-						<span class="checkmark">
+						<span class="checkbox__container--mark">
 							<svg width="11" height="8">
 								<use
 									href="./images/icons.svg#icon-Vector5"

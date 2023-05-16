@@ -20,11 +20,6 @@ img {
   display: block;
 }
 
-.sections {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 :root {
   --text-color-blue: rgba(33, 150, 243, 1);
   --text-color-black: rgba(0, 0, 0, 1);
@@ -60,4 +55,4 @@ a {
 
 ul {
   list-style-type: none;
-}/*# sourceMappingURL=vars.min.css.map */
+}/*# sourceMappingURL=variables.min.css.map */
