@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #ffffff;
+	width: 1600px;
+	margin: 0 auto;
+}
+img {
+	display: block;
+}
+.sections {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+header {
+	border-bottom: 1px solid var(--border-color-grey);
+}

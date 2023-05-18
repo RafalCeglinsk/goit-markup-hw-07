@@ -6,7 +6,6 @@
 	text-decoration: none;
 	display: block;
 	max-width: 135px;
-	margin-bottom: 20px;
 	&--blue {
 		color: var(--text-color-blue);
 		font-weight: 700;
@@ -22,6 +21,7 @@
 	flex-direction: column;
 	gap: 9px;
 	float: left;
+	margin-bottom: 20px;
 	&--contact {
 		color: var(--contact-color-grey);
 		font-weight: 400;
@@ -130,5 +130,4 @@
 }
 .footer-effect {
 	background-color: var(--background-color-black);
-	padding: 60px 0px;
 }

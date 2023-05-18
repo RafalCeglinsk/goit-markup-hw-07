@@ -4,7 +4,6 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 25px 0px 24px 0px;
-	border-bottom: 1px solid var(--border-color-grey);
 	&__logo--blue {
 		color: var(--text-color-black);
 		font-family: Raleway;
@@ -36,8 +35,7 @@
 		line-height: 1.14;
 		letter-spacing: 0.02em;
 		margin-right: 46px;
-		&:hover,
-		&:focus {
+		&:hover {
 			color: var(--hover-color-blue);
 			transition: 250ms;
 			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -67,9 +65,14 @@
 		display: block;
 		margin-top: 27px;
 	}
-	&__is-active &--item {
+	&__is-active &__item {
 		position: relative;
 		color: var(--text-color-blue);
+		&:focus {
+			color: var(--hover-color-blue);
+			transition: 250ms;
+			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		}
 	}
 }
 
