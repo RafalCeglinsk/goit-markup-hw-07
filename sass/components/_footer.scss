@@ -1,3 +1,35 @@
+.footer-effect {
+	background-color: var(--background-color-black);
+}
+.footer-container {
+	display: flex;
+}
+.address {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	&__box {
+		display: flex;
+		flex-direction: column;
+		gap: 9px;
+		&--contact {
+			color: var(--contact-color-grey);
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 1.7;
+			letter-spacing: 0.03em;
+		}
+		&--city {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			color: var(--text-color-white);
+		}
+	}
+}
 .footer__logo {
 	font-family: Raleway;
 	color: var(--text-color-white);
@@ -5,7 +37,8 @@
 	line-height: 1.2;
 	text-decoration: none;
 	display: block;
-	max-width: 135px;
+	max-width: 145px;
+	margin-bottom: 20px;
 	&--blue {
 		color: var(--text-color-blue);
 		font-weight: 700;
@@ -14,34 +47,28 @@
 		text-decoration: none;
 	}
 }
-.address {
-	font-style: normal;
-	color: var(--text-color-white);
-	display: flex;
-	flex-direction: column;
-	gap: 9px;
-	float: left;
-	margin-bottom: 20px;
-	&--contact {
-		color: var(--contact-color-grey);
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 1.7;
-		letter-spacing: 0.03em;
-	}
-}
-.footer-socials-box {
-	display: inline-block;
-	margin-left: 70px;
-	margin-top: -35px;
-}
 .footer__socials {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	gap: 10px;
-	margin-bottom: 18px;
-	cursor: pointer;
+	gap: 9px;
+	&--box {
+		display: flex;
+		flex-direction: column;
+		margin-left: 70px;
+		padding-top: 72px;
+		padding-bottom: 100px;
+	}
+	&--join-us {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: var(--text-color-white);
+		margin-bottom: 20px;
+	}
 	&--link {
 		display: flex;
 		justify-content: center;
@@ -64,9 +91,9 @@
 .newsletter {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	float: right;
-	margin-top: -35px;
+	margin-left: 78px;
+	padding-top: 72px;
+	padding-bottom: 94px;
 	&--text {
 		font-family: "Roboto";
 		font-style: normal;
@@ -76,7 +103,7 @@
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
 		color: var(--text-color-white);
-		padding-bottom: 20px;
+		margin-bottom: 20px;
 	}
 	&__mail {
 		display: flex;
@@ -116,18 +143,4 @@
 			fill: var(--icon-color-white);
 		}
 	}
-}
-.join-us {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: var(--text-color-white);
-	margin-bottom: 20px;
-}
-.footer-effect {
-	background-color: var(--background-color-black);
 }
