@@ -933,6 +933,15 @@
 .project {
   cursor: pointer;
 }
+.project:hover .project__card--description {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--project-description-hover);
+}
 .project__card {
   position: relative;
   overflow: hidden;
@@ -953,7 +962,7 @@
   right: 0;
   bottom: 0;
 }
-.project__card:hover .project__card--description {
+.project__card--description:hover {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
   -webkit-transition: 250ms;

@@ -27,6 +27,12 @@
 }
 .project {
 	cursor: pointer;
+	&:hover .project__card--description {
+		transform: translateY(0%);
+		transition: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		background-color: var(--project-description-hover);
+	}
 	&__card {
 		position: relative;
 		overflow: hidden;
@@ -44,12 +50,12 @@
 			top: 0;
 			right: 0;
 			bottom: 0;
-		}
-		&:hover .project__card--description {
-			transform: translateY(0%);
-			transition: 250ms;
-			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-			background-color: var(--project-description-hover);
+			&:hover {
+				transform: translateY(0%);
+				transition: 250ms;
+				transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+				background-color: var(--project-description-hover);
+			}
 		}
 	}
 	&--set {
